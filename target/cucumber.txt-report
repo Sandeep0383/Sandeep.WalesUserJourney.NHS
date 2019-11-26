@@ -1,0 +1,10 @@
+@SmokeTest
+Feature: Wales User Journey
+  As a person from Wales
+  I need to know what help I can get with my NHS costs
+  So that I can get the treatment I need
+
+  Scenario: Wales User Journey with valid credential             [90m# Search.feature:7[0m
+    [32mGiven [0m[32mI am a person from Wales[0m                               [90m# SearchStepDef.iAmAPersonFromWales()[0m
+    [32mWhen [0m[32mI put my circumstances into the Checker tool[0m            [90m# SearchStepDef.iPutMyCircumstancesIntoTheCheckerTool()[0m
+    [32mThen [0m[32mI should get a result of whether I will get help or not[0m [90m# SearchStepDef.iShouldGetAResultOfWhetherIWillGetHelpOrNot()[0m

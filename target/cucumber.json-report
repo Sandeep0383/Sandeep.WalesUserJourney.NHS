@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13006427500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Wales User Journey with valid credential",
+        "description": "",
+        "id": "wales-user-journey;wales-user-journey-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1240787700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4223908100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "SearchStepDef.iAmAPersonFromWales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10494618800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I put my circumstances into the Checker tool",
+            "match": {
+              "location": "SearchStepDef.iPutMyCircumstancesIntoTheCheckerTool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135774600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "SearchStepDef.iShouldGetAResultOfWhetherIWillGetHelpOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Wales User Journey",
+    "description": "As a person from Wales\r\nI need to know what help I can get with my NHS costs\r\nSo that I can get the treatment I need",
+    "id": "wales-user-journey",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
